@@ -1,0 +1,31 @@
+
+.none{
+    display: none;
+}
+.block{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    top: 0%;
+    right: -2%;
+    padding: 5%;
+    background-color:black;
+    border: 2px solid #fff;
+    
+    color: #fff;
+
+    width: 100vw;
+    height: 100vh;
+    header{
+        display: flex;
+        justify-content: space-between;
+        height: 5%;
+        width: 100%;
+        img{
+            height: 25px;
+        }
+        img:nth-child(1){
+            padding-inline-start: 10%;
+        }
+    }
+}

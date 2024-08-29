@@ -1,0 +1,19 @@
+#root {
+  margin: 0 ;
+  padding: 0;
+  box-sizing: border-box;
+  min-width: 100dvw;
+  max-width: 100vw;
+  --White: hsl(0, 0%, 100%);
+  --Black: hsl(0, 0%, 0%);
+  --DarkGray: hsl(0, 0%, 55%);
+  --VeryDarkGray: hsl(0, 0%, 41%);
+  color: var(--White);
+  @font-face {
+    font-family:Alata, sans-serif ;
+    src: url('https://fonts.google.com/specimen/Alata');
+  }
+}
+#root >*:not(:nth-child(1)){
+  margin-top: 100px;
+}

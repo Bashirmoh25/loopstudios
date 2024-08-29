@@ -1,0 +1,57 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 3%;
+    
+}
+.section{
+    padding-inline: 10%;
+}
+.header{
+    color: #111;
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+    align-self: center;
+    
+}
+.h2{
+    align-self: center;
+    padding-inline-start: 25%;
+}
+
+.seeAllBtn{
+    color: #111;
+    height: 5%;
+    padding-inline: 20px;
+    padding-block: 10px;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-inline: 5%;
+    button{
+        width: 50%;
+        align-self: center;
+        
+    }
+}
+.imgDivDesktop{
+    aspect-ratio: 2/3;
+    display: flex;
+    align-items:end;
+    padding-inline-start: 10%;
+    font-size: 2.5rem;
+    font-weight: 300;
+    padding-bottom: 20%;
+}
+.imgDivMob{
+    aspect-ratio: 2/1;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 2rem;
+    padding-inline-start: 5%;
+}

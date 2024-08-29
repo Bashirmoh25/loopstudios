@@ -1,0 +1,51 @@
+.main{
+    background-image: url('../../assets/images/desktop/image-interactive.jpg');
+    padding-inline: 10%;
+    position: relative;
+    background-repeat: no-repeat;
+    height: 70vh;
+    margin-inline: 10%;
+
+}
+.mainMob{
+    padding-inline: 10%;
+}
+.mainTextDesktop{
+    background-color: #fff;
+    position:absolute;
+    color: black;
+    max-width: 500px;
+    padding-left: 5%;
+    bottom: 0;
+    left: 45%;
+    
+    
+}
+.mainTextMob{
+    color: #000;
+}
+.interactiveImgDiv{
+    width: 100%;
+    height: 100%;
+    img{
+        width:40%;
+    }
+}
+.interactiveImgDivMob{
+    
+    img{
+        width:-webkit-fill-available;
+    }
+}
+.paraMob{
+   text-align: center;
+   font-size: 1.2rem; 
+   font-weight: 400;
+   color: #707070;
+   /*padding-inline: 20px;*/
+}
+.headingMob{
+    font-size: 3.0rem;
+    font-weight: 300;
+   /* padding-inline: 20px;*/
+}

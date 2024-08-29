@@ -1,0 +1,37 @@
+.header{
+    background-image: url("../../assets/images/desktop/image-hero.jpg");
+    height: 60dvh;
+    padding: 5%;
+
+}
+.headerMob{
+    background-image: url("../../assets/images/mobile/image-hero.jpg");
+    height: 80vh;
+    padding: 10%;
+
+}
+
+.navUl{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.impressive{
+    border: 2px solid #fff;
+    width: 40%;
+    height:max-content;
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: 3rem;
+    margin-block: 5%;
+        
+    
+}
+.impressiveMob{
+    border: 2px solid #fff;
+    width: 100%;
+    font-size: 3rem;
+    text-transform: uppercase;
+    width: 100%;
+    margin-top: 60%; 
+}
